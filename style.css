@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.menu-item {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #cfcfcf;
+    font-weight: radiols;
+    cursor: pointer;
+}
